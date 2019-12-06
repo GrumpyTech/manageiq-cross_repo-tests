@@ -1,3 +1,4 @@
+---
 dist: xenial
 language: ruby
 rvm:
@@ -14,6 +15,6 @@ matrix:
   fast_finish: true
 env:
   global:
-  - REPOS=
+  - REPOS=GrumpyTech/manageiq-ui-classic#1
   matrix:
-  - TEST_REPO=manageiq
+  - TEST_REPO=GrumpyTech/manageiq
